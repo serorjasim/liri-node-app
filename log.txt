@@ -1,0 +1,42 @@
+-----OMDB Log Entry Start-----
+
+Processed on:
+Mon May 14 2018 20:40:38 GMT-0500 (CDT)
+
+terminal commands:
+/usr/local/Cellar/node/9.9.0/bin/node,/Users/serorjasim/Desktop/bootcamp/homeworks/week6/liri-node-app/liri.js,movie-this
+
+Data Output: 
+
+Movie Title: Mr. Nobody
+Year: 2009
+IMDB rating: 7.9
+Rotten Tomatoes Rating: 66%
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+
+-----OMDB Log Entry End-----
+
+-----OMDB Log Entry Start-----
+
+Processed on:
+Mon May 14 2018 20:43:10 GMT-0500 (CDT)
+
+terminal commands:
+/usr/local/Cellar/node/9.9.0/bin/node,/Users/serorjasim/Desktop/bootcamp/homeworks/week6/liri-node-app/liri.js,movie-this,titanic
+
+Data Output: 
+
+Movie Title: Titanic
+Year: 1997
+IMDB rating: 7.8
+Rotten Tomatoes Rating: 88%
+Country: USA
+Language: English, Swedish
+Plot: A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
+Actors: Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates
+
+-----OMDB Log Entry End-----
+
