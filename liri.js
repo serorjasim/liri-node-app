@@ -4,11 +4,11 @@ var keys = require("./keys.js");
 var Twitter = require('twitter');
 var Spotify = require('node-spotify-api');
 var inquirer = require('inquirer');
-var spotify = new Spotify(keys.spotify);
 var request = require("request");
 //to grab users commands from CLI
 var selection = process.argv[2];
 var search = process.argv[3];
+var searchValue = "";
 //this package required twitter,spotify,request,inquirer
 
 inquirer.prompt([
@@ -57,13 +57,35 @@ inquirer.prompt([
             }
 
             // Do something with 'data'
-        });
+            function searchSong(searchValue) {
+
+                if (searchValue === "") {
+                    searchValue = "The Sign";
+                }
+                var spotify = new Spotify(keys.spotify);
+                var searchLimit = "";
+            }
+            or(var i = 4; i < process.argv.length; i++) {
+            searchValue += process.argv[i] + " ";
+        };
+
+
+    });
     } else if (response.select === "movie-this") {
-        //use inquirer code
+    //use inquirer code
+    function searchMovie(searchValue) {
+        if (searchValue === "") {
+            searchValue = "Mr. Nobody";
+        }
+
+        var queryUrl = "http://www.omdbapi.com/?t=" + searchValue.trim() + "&y=&plot=short&apikey=trilogy";
+
+        request(queryUrl, function (respError, response, body
+        }
 
 
-        //request package
-    } else (response.select === "do-what-it-says")
+    //request package
+} else (response.select === "do-what-it-says")
     // Use user feedback for... whatever!!
 });
 
